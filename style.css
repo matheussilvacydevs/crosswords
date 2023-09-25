@@ -1,0 +1,24 @@
+/* style.css */
+#crossword {
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  grid-template-rows: repeat(5, 40px);
+  gap: 2px;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.word-across {
+  background-color: yellow;
+}
+
+.word-down {
+  background-color: lightblue;
+}
